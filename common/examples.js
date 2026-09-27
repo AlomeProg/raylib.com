@@ -161,6 +161,11 @@ $(document).ready(function() {
         exampleEntry('⭐⭐⭐⭐️', 'shapes', 'penrose_tile'),
         exampleEntry('⭐⭐⭐☆', 'shapes', 'hilbert_curve'),
         exampleEntry('⭐⭐⭐☆', 'shapes', 'easings_testbed'),
+        exampleEntry('⭐☆☆☆', 'shapes', 'drag_puzzle'),
+        exampleEntry('⭐⭐☆☆', 'shapes', 'ellipse_collision'),
+        exampleEntry('⭐⭐⭐☆', 'shapes', 'outlines_testbed'),
+        exampleEntry('⭐☆☆☆', 'shapes', 'outlines_thickness'),
+        exampleEntry('⭐⭐☆☆', 'shapes', 'polygon_lines'),
         exampleEntry('⭐☆☆☆', 'textures', 'clipboard_image'),
         exampleEntry('⭐⭐⭐☆', 'textures', 'magnifying_glass'),
         exampleEntry('⭐☆☆☆', 'textures', 'logo_raylib'),
@@ -193,6 +198,7 @@ $(document).ready(function() {
         exampleEntry('⭐⭐☆☆', 'textures', 'sprite_stacking'),
         exampleEntry('⭐⭐☆☆', 'textures', 'cellular_automata'),
         exampleEntry('⭐⭐☆☆', 'textures', 'framebuffer_rendering'),
+        exampleEntry('⭐⭐⭐⭐️', 'textures', 'portal_window'),
         exampleEntry('⭐☆☆☆', 'text', 'sprite_fonts'),
         exampleEntry('⭐☆☆☆', 'text', 'font_spritefont'),
         exampleEntry('⭐⭐☆☆', 'text', 'font_filters'),
@@ -239,6 +245,8 @@ $(document).ready(function() {
         exampleEntry('⭐⭐⭐⭐️', 'models', 'animation_blend_custom'),
         exampleEntry('⭐⭐⭐⭐️', 'models', 'animation_blending'),
         exampleEntry('⭐⭐⭐☆', 'models', 'animation_timing'),
+        exampleEntry('⭐⭐⭐⭐️', 'models', 'mesh_uv_painting'),
+        exampleEntry('⭐⭐⭐⭐️', 'models', 'procedural_decals'),
         exampleEntry('⭐⭐☆☆', 'shaders', 'ascii_rendering'),
         exampleEntry('⭐⭐⭐⭐️', 'shaders', 'basic_lighting'),
         exampleEntry('⭐⭐☆☆', 'shaders', 'model_shader'),
@@ -274,6 +282,7 @@ $(document).ready(function() {
         exampleEntry('⭐⭐⭐☆', 'shaders', 'game_of_life'),
         exampleEntry('⭐⭐⭐⭐️', 'shaders', 'rlgl_compute'),
         exampleEntry('⭐⭐⭐☆', 'shaders', 'cel_shading'),
+        exampleEntry('⭐⭐⭐☆', 'shaders', 'lights_bloom'),
         exampleEntry('⭐☆☆☆', 'audio', 'module_playing'),
         exampleEntry('⭐☆☆☆', 'audio', 'music_stream'),
         exampleEntry('⭐⭐⭐☆', 'audio', 'raw_stream'),
@@ -283,7 +292,8 @@ $(document).ready(function() {
         exampleEntry('⭐⭐☆☆', 'audio', 'sound_multi'),
         exampleEntry('⭐⭐☆☆', 'audio', 'sound_positioning'),
         exampleEntry('⭐⭐⭐☆', 'audio', 'spectrum_visualizer'),
-        exampleEntry('⭐⭐⭐☆', 'audio', 'stream_callback')];
+        exampleEntry('⭐⭐⭐☆', 'audio', 'stream_callback'),
+        exampleEntry('⭐☆☆☆', 'audio', 'amp_envelope')];
 //EXAMPLE_DATA_LIST_END
 
 	var exampleDivs = []
